@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: d08-ex00
+Version: 0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Mickael Sorin
+Author-email: msorin@student.42.fr
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framworks :: Django
+Classifier: Framworks :: Django :: 1.9
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3

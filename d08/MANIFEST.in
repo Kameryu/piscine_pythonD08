@@ -1,0 +1,2 @@
+recursive-include ex00/templates *
+recursive-include ex00/static *
