@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang='en'>
+<head>
+	<title>D08</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="/static/ex00/css/style.css">
+	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/unique" type="text/css"/>
+</head>
+<body>
+	<form method="POST" enctype="multipart/form-data">
+		{% csrf_token %}
+		{{ form.as_p }}
+		<input type="submit" value="submit">
+	</form>
+	<ul>
+		{% for file in files %}
+		<li>
+			<div class="print_file">
+				<img src="{{ file.file.url }}" alt="file.name"><br>
+				<a href="{{ file.file.url }}" target="_blank">
+					{{ file.name }}
+				</a>
+			</div>
+		</li>
+		{% empty %}
+		I'm sorry, Your file is in an other Castle
+		{% endfor %}
+	</ul>
+</body>
+</html>

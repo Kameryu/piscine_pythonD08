@@ -1,0 +1,33 @@
+body {
+	font-family: "UniqueRegular";
+	background-image: url("https://profile.intra.42.fr/assets/background_login-a4e0666f73c02f025f590b474b394fd86e1cae20e95261a6e4862c2d0faa1b04.jpg");
+}
+
+img {
+	border: 1px solid #424242;
+	border-radius: 4px;
+	padding: 5px;
+	width: 150px;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+ul {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  flex: 0 0 200px;
+  padding: 1em;
+  display: flex;
+  align-items: flex-end;
+}
+
+.print_file {
+	text-align: center;
+}
