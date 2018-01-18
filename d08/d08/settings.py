@@ -28,10 +28,10 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '127.0.0.1',
     '127.0.0.1:8000',
-    '127.0.0.1:8001',
+    '127.0.0.1:3001',
     'localhost',
     'localhost:8000',
-    'localhost:8001',
+    'localhost:3001',
 ]
 
 
